@@ -55,8 +55,8 @@ jobs:
         with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: ${{ secrets.EMAIL_USERNAME }}
-          password: ${{ secrets.EMAIL_PASSWORD }}
+          username: "ametov1ali@gmail.com"
+          password: "mxpa pznk advw kevr"
           subject: "CI/CD Deployment Status"
           body: "Deployment has been completed successfully!"
           to: "ametov1ali@gmail.com"
